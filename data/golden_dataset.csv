@@ -1,0 +1,6 @@
+id,group,question,reference_answer
+G01,factoid,"According to the indexed news, which technology did Samsung Electronics Co. Ltd. develop?","Samsung Electronics Co. Ltd. -DEVELOPED-> analog and logic semiconductor technologies (2023-10-05)"
+G02,factoid,"According to the indexed news, which technology did Citi develop?","Citi -DEVELOPED-> Citi Token Services (2023-09-26)"
+G03,multi-hop,"Using two linked facts, how is Citi connected to blockchain technology through Citi Token Services?","Citi -DEVELOPED-> Citi Token Services (2023-09-26); Citi Token Services -USES-> blockchain technology (2023-09-26)."
+G04,multi-hop,"Using two linked facts, how is iPhone 15 connected to video streaming services through Apple?","Apple -DEVELOPED-> iPhone 15 (2023-09-19); Apple -PARTNERED_WITH-> video streaming services (2023-06-01)."
+G05,cross-doc,"What relationships involving Apple are supported by at least two different news chunks?","Apple -DEVELOPED-> iPhone 15 (2023-09-19) Apple -PARTNERED_WITH-> video streaming services (2023-06-01)"

@@ -1,0 +1,21 @@
+Loại câu hỏi,Metric,Flat RAG,GraphRAG,Delta Graph minus Flat,Nhận xét phân tích
+factoid,Comprehensiveness,5.000,5.000,0.000,Hai phương pháp gần nhau.
+factoid,Faithfulness,5.000,5.000,0.000,Hai phương pháp gần nhau.
+factoid,Multi-hop reasoning,5.000,5.000,0.000,Hai phương pháp gần nhau.
+factoid,Latency (s),1.352,1.059,-0.293,GraphRAG không đắt hơn trong sample này.
+factoid,Token usage,544.500,499.000,-45.500,GraphRAG không đắt hơn trong sample này.
+multi-hop,Comprehensiveness,3.500,4.000,0.500,GraphRAG cải thiện vừa phải.
+multi-hop,Faithfulness,4.500,5.000,0.500,GraphRAG cải thiện vừa phải.
+multi-hop,Multi-hop reasoning,3.500,4.000,0.500,GraphRAG cải thiện vừa phải.
+multi-hop,Latency (s),2.075,1.624,-0.451,GraphRAG không đắt hơn trong sample này.
+multi-hop,Token usage,621.000,652.000,31.000,Flat RAG rẻ hơn trong sample này.
+cross-doc,Comprehensiveness,2.000,5.000,3.000,GraphRAG cải thiện rõ nhờ context liên kết.
+cross-doc,Faithfulness,3.000,5.000,2.000,GraphRAG cải thiện rõ nhờ provenance.
+cross-doc,Multi-hop reasoning,2.000,5.000,3.000,GraphRAG cải thiện rõ nhờ traversal.
+cross-doc,Latency (s),2.336,2.146,-0.190,GraphRAG không đắt hơn trong sample này.
+cross-doc,Token usage,661.000,738.000,77.000,Flat RAG rẻ hơn trong sample này.
+overall,Comprehensiveness,3.800,4.600,0.800,GraphRAG cải thiện rõ; kiểm tra rationale và provenance.
+overall,Faithfulness,4.400,5.000,0.600,GraphRAG cải thiện rõ; kiểm tra rationale và provenance.
+overall,Multi-hop reasoning,3.800,4.600,0.800,GraphRAG cải thiện rõ; kiểm tra rationale và provenance.
+overall,Latency (s),1.838,1.502,-0.336,GraphRAG không đắt hơn trong sample này.
+overall,Token usage,598.400,608.000,9.600,Flat RAG rẻ hơn trong sample này.
